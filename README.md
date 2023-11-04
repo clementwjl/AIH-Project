@@ -48,12 +48,47 @@ Before running the bot, you need to set up the following:
         LANGSMITH_API_KEY=your_langsmith_api_key
     ```
 
-5. Run the bot:
+5. Setting Up Relevant Documents
+
+To enhance the performance of the model and generate accurate responses, you should provide a set of relevant documents for text embeddings. These documents will help the model better understand and generate contextually relevant responses.
+
+**Prepare Your Documents:**
+
+    - Collect the documents you want the model to use for text embeddings in a folder on your local machine.
+
+**Update the Document Path in `model.py`:**
+
+    - Open the `model.py` file in your code editor.
+
+    - Locate the following line of code in `model.py`:
+
+    ```python
+    loader = PyPDFDirectoryLoader("INSERT SOURCE DOCUMENTS FOLDER PATH HERE")
+    ```
+
+6. Run the bot:
 
     ```bash
     python main.py
     ```
 
+## Setting Up Relevant Documents
+
+To enhance the performance of the model and generate accurate responses, you should provide a set of relevant documents for text embeddings. These documents will help the model better understand and generate contextually relevant responses.
+
+1. **Prepare Your Documents:**
+
+    - Collect the documents you want the model to use for text embeddings in a folder on your local machine.
+
+2. **Update the Document Path in `model.py`:**
+
+    - Open the `model.py` file in your code editor.
+
+    - Locate the following line of code in `model.py`:
+
+    ```python
+    loader = PyPDFDirectoryLoader("INSERT SOURCE DOCUMENTS FOLDER PATH HERE")
+    ```
 ## Usage
 
 - Start a conversation with the bot on Telegram by searching for it or using your bot's invite link.
