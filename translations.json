@@ -1,0 +1,13 @@
+{
+    "english": {
+        "start_description": "Start the conversation",
+        "help_description": "Show this help message",
+        "reset_description": "Reset the conversation"
+    },
+    
+    "chinese": {
+        "start_description": "开始对话",
+        "help_description": "显示此帮助消息",
+        "reset_description": "重置对话"
+    }
+}
