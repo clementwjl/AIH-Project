@@ -23,8 +23,8 @@ Before running the bot, you need to set up the following:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/healthserve-virtual-assistant.git
-    cd healthserve-virtual-assistant
+    git clone https://github.com/clementwjl/AIH-Project.git
+    cd AIH-Project
     ```
 
 2. Create a virtual environment (optional but recommended):
